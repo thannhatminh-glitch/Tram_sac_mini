@@ -2,6 +2,10 @@
 
 Hệ thống trạm sạc mini sử dụng **ESP32**, hỗ trợ **thanh toán QR**, đo điện năng tiêu thụ bằng **PZEM-004T**, hiển thị trên **TFT LCD**, và quản lý trạng thái thông qua **MQTT**.
 
+Demo 1: https://youtu.be/hVh4tHDIPk4
+
+Demo 2: https://youtu.be/Jk2nN1VEf78
+
 ## 📌 Tính năng chính
 
 - 🔋 Đo điện áp, dòng điện, công suất, điện năng bằng **PZEM-004T**
