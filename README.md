@@ -29,15 +29,6 @@ Hệ thống trạm sạc mini sử dụng **ESP32**, hỗ trợ **thanh toán Q
 
 ---
 
-## 📷 Giao diện hệ thống
-
-> Thêm ảnh chụp màn hình hoặc ảnh phần cứng tại đây
-
-```md
-![Demo](images/demo.jpg)
-```
-
----
 
 ## ⚙️ Thư viện sử dụng
 
