@@ -12,7 +12,7 @@ using namespace fs;
 
 
 // ===== SEPAY API =====
-static const char* API_KEY    = "OIH5JFPDD7TYUZST0NUEILBTB6MFZYOXQRQRNV3P8LJAHJWV7ISE1XEGZCOZYGDQ";
+static const char* API_KEY    = "API KEY";
 static const char* API_URL    = "https://my.sepay.vn/userapi/transactions/list?limit=1";
 
 // ===== CHẾ ĐỘ TEST =====
