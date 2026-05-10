@@ -1,4 +1,4 @@
-# ⚡ Trạm Sạc Mini ESP32
+# ⚡ Trạm Sạc Xe Điện 
 
 Hệ thống trạm sạc mini sử dụng **ESP32**, hỗ trợ **thanh toán QR**, đo điện năng tiêu thụ bằng **PZEM-004T**, hiển thị trên **TFT LCD**, và quản lý trạng thái thông qua **MQTT**.
 
