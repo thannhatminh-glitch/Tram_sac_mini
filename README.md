@@ -1,4 +1,4 @@
-# ⚡ Trạm Sạc Xe Điện 
+#  Trạm Sạc Xe Điện 
 
 Hệ thống trạm sạc mini sử dụng **ESP32**, hỗ trợ **thanh toán QR**, đo điện năng tiêu thụ bằng **PZEM-004T**, hiển thị trên **TFT LCD**, và quản lý trạng thái thông qua **MQTT**.
 
@@ -6,21 +6,21 @@ Demo 1: https://youtu.be/hVh4tHDIPk4
 
 Demo 2: https://youtu.be/Jk2nN1VEf78
 
-## 📌 Tính năng chính
+##  Tính năng chính
 
-- 🔋 Đo điện áp, dòng điện, công suất, điện năng bằng **PZEM-004T**
-- 💳 Thanh toán bằng **QR Code**
-- 📺 Hiển thị giao diện trên màn hình **TFT**
-- 🌐 Giao tiếp MQTT để đồng bộ trạng thái
-- ⏱️ Theo dõi điện năng tiêu thụ theo kWh
-- 🚨 Tự động ngắt sạc khi:
+- Đo điện áp, dòng điện, công suất, điện năng bằng **PZEM-004T**
+- Thanh toán bằng **QR Code**
+- Hiển thị giao diện trên màn hình **TFT**
+- Giao tiếp MQTT để đồng bộ trạng thái
+- Theo dõi điện năng tiêu thụ theo kWh
+- Tự động ngắt sạc khi:
   - Hết điện năng đã mua
   - Có yêu cầu dừng khẩn cấp
-- 📡 Kết nối Wi-Fi với ESP32
+-  Kết nối Wi-Fi với ESP32
 
 ---
 
-## 🛠️ Phần cứng sử dụng
+##  Phần cứng sử dụng
 
 | Thiết bị | Mô tả |
 |----------|------|
@@ -47,7 +47,7 @@ Cài đặt các thư viện cần thiết trong Arduino IDE:
 
 ---
 
-## 📂 Cấu trúc project
+##  Cấu trúc project
 
 ```txt
 PZEM_QR/
