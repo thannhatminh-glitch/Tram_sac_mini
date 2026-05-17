@@ -157,6 +157,27 @@ void setup() {
     configASSERT(xDisplayMutex != NULL);
 
     display.begin();
+    
+    if (digitalRead(BTN_0) == LOW) {
+        Serial.println("[BOOT] BTN_0 giữ lúc khởi động — Reset WiFi!");
+
+        display.tft.fillScreen(TFT_BLACK);
+        display.tft.setTextDatum(MC_DATUM);
+
+        display.tft.setTextSize(2);
+        display.tft.setTextColor(TFT_RED, TFT_BLACK);
+        display.tft.drawString("RESET WiFi...", 160, 80);
+
+        display.tft.setTextSize(1);
+        display.tft.setTextColor(TFT_WHITE, TFT_BLACK);
+        display.tft.drawString("Ket noi vao Wi-Fi: SacDien-Setup", 160, 125);
+        display.tft.drawString("Mo trinh duyet -> 192.168.4.1", 160, 143);
+        display.tft.drawString("Nhap ten & mat khau WiFi moi", 160, 161);
+
+        delay(2000);
+        sepay.resetWiFi();
+    }
+
     displaySafe([&]{ display.drawWelcome(); });
 
     sepay.begin();
